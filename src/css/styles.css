@@ -451,6 +451,7 @@ p {
     url(../images/sect-one-image-three-mobile-1x.png);
   background-repeat: no-repeat;
   background-position: top 108px right, bottom 117px right, top 280px left 80px;
+  background-size: 195px 135px, 140px 134px, 1px 215px;
 
   max-width: 480px;
   margin-left: auto;
