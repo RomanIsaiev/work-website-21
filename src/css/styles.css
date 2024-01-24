@@ -465,6 +465,7 @@ p {
     background-image: url(../images/sect-one-image-one-mobile-2x.png),
       url(../images/sect-one-image-two-mobile-2x.png),
       url(../images/sect-one-image-three-mobile-2x.png);
+    background-size: 195px 135px, 140px 134px, 1px 215px;
   }
 }
 
