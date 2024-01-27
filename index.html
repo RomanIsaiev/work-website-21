@@ -29,9 +29,9 @@
             міні-курсу!? 
           </p>
           <div class="buy-button-container">
-            <button class="header-button" data-action="open-modal">
+            <a class="header-button link" data-action="open-modal" href="#more">
               Приєднатись
-            </button>
+            </a>
             <div class="header-sale-mark">
               <picture
                 ><source
@@ -491,7 +491,7 @@
               перші, найважливіші кроки, та зможете почати заробляти віддалено,
               витрачаючи одну-дві години часу на тиждень
             </p>
-            <div class="table">
+            <div class="table" id="more">
               <picture
                 ><source
                   srcset="
@@ -859,10 +859,22 @@
               <div class="contract-container">
                 <ul class="contract-list list">
                   <li class="list-item">
-                    <a class="link" href="">Договір оферта</a>
+                    <a
+                      class="link"
+                      href="https://docs.google.com/document/d/1oSgAO5mkFLYHpFduCu8MeTF_vusxMoZiFllSKGwqDNs/edit?usp=sharing"
+                      target="_blank"
+                      rel="nofollow"
+                      >Договір оферта</a
+                    >
                   </li>
                   <li class="list-item">
-                    <a class="link" href="">Політика конфіденційності</a>
+                    <a
+                      class="link"
+                      href="https://docs.google.com/document/d/1YkgTMZKvxAl0ZLA_zfdREErhTa3is-nDnU0YRRTl1RM/edit?usp=sharing"
+                      target="_blank"
+                      rel="nofollow"
+                      >Політика конфіденційності</a
+                    >
                   </li>
                 </ul>
               </div>
@@ -874,7 +886,13 @@
                       alt="instagram"
                       width="24"
                       height="24"
-                    /><a class="link" href="">@ruslanbardadym</a>
+                    /><a
+                      class="link"
+                      href="https://www.instagram.com/ruslanbardadym"
+                      target="_blank"
+                      rel="nofollow"
+                      >@ruslanbardadym</a
+                    >
                   </li>
                   <li class="list-item">
                     <img
@@ -882,7 +900,13 @@
                       alt="instagram"
                       width="24"
                       height="24"
-                    /><a class="link" href="">@iusypchuk_bogdan</a>
+                    /><a
+                      class="link"
+                      href="https://www.instagram.com/iusypchuk_bogdan"
+                      target="_blank"
+                      rel="nofollow"
+                      >@iusypchuk_bogdan</a
+                    >
                   </li>
                 </ul>
               </div>
@@ -890,7 +914,11 @@
                 <a class="fop-mail link" href="">7008333@gmail.com</a>
                 <p class="fop-text">ФОП Бардадим Р.В. <br />ІПН 3081605115</p>
               </div>
-              <a href=""
+              <a
+                class="link"
+                href="https://www.instagram.com/lllckui"
+                target="_blank"
+                rel="nofollow"
                 ><div class="disign-creator-container">
                   <div class="creator-flex">
                     <p>Сайт розроблений</p>
@@ -928,14 +956,48 @@
         </div>
       </section>
     </main>
-
+    <!--optimal-->
+    <div class="backdrop is-hidden" data-modal1>
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close1>
+          <img
+            src="./src/images/close-modal-icon.svg"
+            width="30"
+            height="30"
+            alt="close"
+          />
+        </button>
+        <div id="kwiga-widget-1706297337"></div>
+      </div>
+    </div>
+    <!-- premium -->
+    <div class="backdrop is-hidden" data-modal2>
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close2>
+          <img
+            src="./src/images/close-modal-icon.svg"
+            width="30"
+            height="30"
+            alt="close"
+          />
+        </button>
+        <div id="kwiga-widget-1706297367"></div>
+      </div>
+    </div>
     <script type="module" src="./src/js/jquery-3.7.0.min.js"></script>
     <script type="module" src="./src/js/faq.js"></script>
+    <script type="module" src="./src/js/scroll.js"></script>
     <script type="module" src="./src/js/timer.js"></script>
-    <!-- <script type="module" src="./src/js/js-modal.js"></script> -->
-    <!-- <script type="module" src="./src/js/siema.min.js"></script> -->
-    <!-- <script type="module" src="./src/js/siema.js"></script> -->
-    <!-- <script type="module" src="./src/js/changeDate.js"></script> -->
-    <!-- <script type="module" src="./src//js/fixedButton.js"></script> -->
+    <script type="module" src="./src/js/js-modal.js"></script>
+    <!-- optimal -->
+    <script
+      type="module"
+      src="https://kwiga.com/build/js/kwiga-widget.js?t=1706297337&uuid=f2fc5ea4-b103-4c8c-a583-d1117bae75c0&producer=https://kwiga.com/"
+    ></script>
+    <!-- premium -->
+    <script
+      type="module"
+      src="https://kwiga.com/build/js/kwiga-widget.js?t=1706297367&uuid=b8d3c6b8-3ba0-42d8-b381-b2e487159e7a&producer=https://kwiga.com/"
+    ></script>
   </body>
 </html>
