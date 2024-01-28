@@ -837,6 +837,67 @@ p {
   margin-bottom: 30px;
 }
 
+.table {
+  position: relative;
+}
+
+/* price */
+
+.price-container {
+}
+
+.price-date {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+
+  color: #171717;
+  font-family: Manrope;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 15.6px */
+}
+
+.price-date span {
+  font-weight: 500;
+}
+
+.price-optimal-container {
+  position: absolute;
+  bottom: 10px;
+  left: 170px;
+}
+
+.old-price {
+  color: #171717;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 16.9px */
+
+  text-decoration: line-through;
+  text-decoration-color: #eb309e;
+}
+
+.new-price {
+  color: #171717;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.price-premium-container {
+  position: absolute;
+  bottom: 10px;
+  left: 253px;
+}
+
 /* BUTTONS-CONTAINER */
 
 .button-container {
