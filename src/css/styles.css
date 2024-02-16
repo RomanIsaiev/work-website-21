@@ -1338,9 +1338,6 @@ p {
   position: relative;
 }
 
-.contract-container {
-}
-
 .contract-list {
   display: flex;
   flex-direction: column;
@@ -1414,21 +1411,25 @@ p {
 }
 
 .disign-creator-container {
-  padding: 7px;
+  padding: 7px 10px;
   border-radius: 40px;
-  border: 0.3px solid #ffffff86;
+  border: 0.3px solid #fff;
 
-  max-width: 190px;
+  max-width: 195px;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .creator-flex {
   display: flex;
+  justify-content: center;
   align-items: center;
+
   gap: 5px;
 }
 
-.creator-flex p {
+.disign-creator-container p {
   color: #fff;
   font-family: Manrope;
   font-size: 12px;
