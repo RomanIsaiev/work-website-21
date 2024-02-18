@@ -49,7 +49,9 @@
     <header class="header">
       <div class="header-background">
         <div class="container">
-          <p class="header-start">СТАРТ 2 ЛЮТОГО</p>
+          <p class="header-start">
+            СТАРТ <span id="dateElement"></span>.<span id="monthElement"></span>
+          </p>
           <h1 class="header-title">Монетизація <span>Reels</span></h1>
           <p class="header-text">
             Як почати заробляти від <br />
@@ -85,10 +87,6 @@
             <span>отримайте бонуси</span>
           </p>
           <div id="countdown" class="countdown">
-            <div class="countdown-number">
-              <span class="days countdown-time"></span>
-            </div>
-            <div><span class="countdown-doubledot"></span></div>
             <div class="countdown-number">
               <span class="hours countdown-time"></span>
             </div>
@@ -542,16 +540,16 @@
               /></picture>
               <!-- <div class="price-container"> -->
               <div class="price-date">
-                <p>Вартість<br /><span>(до 02.02)</span></p>
+                <!-- <p>Вартість<br /><span>(до 02.02)</span></p> -->
               </div>
               <div class="price-optimal-container">
-                <p class="old-price">6700грн</p>
-                <p class="new-price">990грн</p>
+                <p class="old-price">3200грн</p>
+                <p class="new-price">479грн</p>
               </div>
-              <div class="price-premium-container">
+              <!-- <div class="price-premium-container">
                 <p class="old-price">9900грн</p>
                 <p class="new-price">1490грн</p>
-              </div>
+              </div> -->
               <!-- </div> -->
             </div>
             <div class="button-container">
@@ -586,10 +584,6 @@
               <span>отримайте бонуси</span>
             </p>
             <div id="countdown-two" class="countdown-two">
-              <div class="countdown-number">
-                <span class="days-two countdown-time"></span>
-              </div>
-              <div><span class="countdown-doubledot"></span></div>
               <div class="countdown-number-two">
                 <span class="hours-two countdown-time-two"></span>
               </div>
@@ -710,10 +704,6 @@
               <span>отримайте бонуси</span>
             </p>
             <div id="countdown-three" class="countdown-three">
-              <div class="countdown-number">
-                <span class="days-three countdown-time"></span>
-              </div>
-              <div><span class="countdown-doubledot"></span></div>
               <div class="countdown-number-three">
                 <span class="hours-three countdown-time-three"></span>
               </div>
@@ -1043,6 +1033,7 @@
     <script type="module" src="./src/js/scroll.js"></script>
     <script type="module" src="./src/js/timer.js"></script>
     <script type="module" src="./src/js/js-modal.js"></script>
+    <script type="module" src="./src/js/changeDate.js"></script>
     <!-- optimal -->
     <script
       type="module"
